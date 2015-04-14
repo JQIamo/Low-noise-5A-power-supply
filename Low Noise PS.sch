@@ -5189,29 +5189,57 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="P-1" library="supply1" deviceset="V-" device=""/>
-<part name="C7*" library="jqi-power-supply" deviceset="CPOL-US" device="EB35D" value="22m"/>
-<part name="C10*" library="jqi-power-supply" deviceset="CPOL-US" device="EB35D" value="22m"/>
+<part name="C31" library="jqi-power-supply" deviceset="CPOL-US" device="EB35D" value="22m"/>
+<part name="C30" library="jqi-power-supply" deviceset="CPOL-US" device="EB35D" value="22m"/>
 <part name="IC1" library="jqi-power-supply" deviceset="MAX6350" device="SO08"/>
-<part name="C23" library="rlc-jqi" deviceset="CAP" device="1206" value="2.2u"/>
-<part name="C24" library="rlc-jqi" deviceset="CAP" device="1206" value="2.2u"/>
-<part name="C21" library="rlc-jqi" deviceset="CAP" device="1206" value="1u"/>
+<part name="C23" library="rlc-jqi" deviceset="CAP" device="1206" value="2.2u">
+<attribute name="DIGIKEY" value="587-2402-1-ND"/>
+</part>
+<part name="C24" library="rlc-jqi" deviceset="CAP" device="1206" value="2.2u">
+<attribute name="DIGIKEY" value="587-2402-1-ND"/>
+</part>
+<part name="C21" library="rlc-jqi" deviceset="CAP" device="1206" value="2.2u">
+<attribute name="DIGIKEY" value="587-2402-1-ND"/>
+</part>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
-<part name="IC3" library="opamp-jqi" deviceset="OPAMP" device="-SO" value="LT1677"/>
+<part name="IC3" library="opamp-jqi" deviceset="OPAMP" device="-SO" value="LT1677">
+<attribute name="DIGIKEY" value="LT1677CS8#PBF-ND"/>
+</part>
 <part name="T1" library="jqi-power-supply" deviceset="MJH11022" device="TO-247AD-H" value="MJH11022TO-247AD-H"/>
-<part name="R1" library="rlc-jqi" deviceset="RES" device="1206" value="20k"/>
-<part name="R2" library="rlc-jqi" deviceset="RES" device="1206" value="10k"/>
-<part name="C17" library="rlc-jqi" deviceset="CAP" device="1206" value="0.1u"/>
-<part name="IC4" library="opamp-jqi" deviceset="OPAMP" device="-SO" value="LT1677"/>
-<part name="R3" library="rlc-jqi" deviceset="RES" device="1206" value="20k"/>
-<part name="R4" library="rlc-jqi" deviceset="RES" device="1206" value="10k"/>
+<part name="R1" library="rlc-jqi" deviceset="RES" device="1206" value="20k">
+<attribute name="DIGIKEY" value="RMCF1206FT20K0CT-ND"/>
+</part>
+<part name="R2" library="rlc-jqi" deviceset="RES" device="1206" value="10k">
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND"/>
+</part>
+<part name="C17" library="rlc-jqi" deviceset="CAP" device="1206" value="0.1u">
+<attribute name="DIGIKEY" value="399-1249-1-ND"/>
+</part>
+<part name="IC4" library="opamp-jqi" deviceset="OPAMP" device="-SO" value="LT1677">
+<attribute name="DIGIKEY" value="LT1677CS8#PBF-ND"/>
+</part>
+<part name="R3" library="rlc-jqi" deviceset="RES" device="1206" value="20k">
+<attribute name="DIGIKEY" value="RMCF1206FT20K0CT-ND"/>
+</part>
+<part name="R4" library="rlc-jqi" deviceset="RES" device="1206" value="10k">
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND"/>
+</part>
 <part name="T2" library="jqi-power-supply" deviceset="MJH11021" device="TO-247AD-H" value="MJH11021TO-247AD-H"/>
-<part name="IC2" library="opamp-jqi" deviceset="OPAMP" device="-SO" value="OP27"/>
+<part name="IC2" library="opamp-jqi" deviceset="OPAMP" device="-SO" value="OP27">
+<attribute name="DIGIKEY" value="OP27GSZ-REEL7CT-ND"/>
+</part>
 <part name="AGND4" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
-<part name="R5" library="rlc-jqi" deviceset="RES" device="1206" value="100k"/>
-<part name="R6" library="rlc-jqi" deviceset="RES" device="1206" value="100k"/>
+<part name="R5" library="rlc-jqi" deviceset="RES" device="1206" value="10k">
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND"/>
+</part>
+<part name="R6" library="rlc-jqi" deviceset="RES" device="1206" value="10k">
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND"/>
+</part>
 <part name="AGND3" library="supply1" deviceset="AGND" device=""/>
-<part name="C22" library="rlc-jqi" deviceset="CAP" device="1206" value="1u"/>
+<part name="C22" library="rlc-jqi" deviceset="CAP" device="1206" value="2.2u">
+<attribute name="DIGIKEY" value="587-2402-1-ND"/>
+</part>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
 <part name="X2" library="jqi-power-supply" deviceset="5566-4" device="RA"/>
 <part name="X3" library="jqi-power-supply" deviceset="5566-4" device="RA"/>
@@ -5223,10 +5251,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P-5" library="supply1" deviceset="-15V" device=""/>
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND8" library="supply1" deviceset="AGND" device=""/>
-<part name="C18" library="rlc-jqi" deviceset="CAP" device="1206" value="0.1u"/>
-<part name="C19" library="rlc-jqi" deviceset="CAP" device="1206" value="0.1u"/>
+<part name="C18" library="rlc-jqi" deviceset="CAP" device="1206" value="0.1u">
+<attribute name="DIGIKEY" value="399-1249-1-ND"/>
+</part>
+<part name="C19" library="rlc-jqi" deviceset="CAP" device="1206" value="0.1u">
+<attribute name="DIGIKEY" value="399-1249-1-ND"/>
+</part>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
-<part name="C20" library="rlc-jqi" deviceset="CAP" device="1206" value="0.1u"/>
+<part name="C20" library="rlc-jqi" deviceset="CAP" device="1206" value="0.1u">
+<attribute name="DIGIKEY" value="399-1249-1-ND"/>
+</part>
 <part name="AGND10" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND13" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND14" library="supply1" deviceset="AGND" device=""/>
@@ -5243,7 +5277,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="P+2" library="supply1" deviceset="V+" device=""/>
 <part name="P-2" library="supply1" deviceset="V-" device=""/>
-<part name="R7" library="rlc-jqi" deviceset="RES" device="1206" value="10k"/>
+<part name="R7" library="rlc-jqi" deviceset="RES" device="1206" value="10k">
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND"/>
+</part>
 <part name="C7" library="rlc-jqi" deviceset="CAP" device="1206" value="10u">
 <attribute name="DIGIKEY" value="445-12883-2-ND"/>
 <attribute name="VMAX" value="50"/>
@@ -5254,33 +5290,67 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="VMAX" value="50"/>
 </part>
 <part name="AGND16" library="supply1" deviceset="AGND" device=""/>
-<part name="R8" library="rlc-jqi" deviceset="RES" device="1206" value="10k"/>
-<part name="C10" library="rlc-jqi" deviceset="CAP" device="1206" value="2.2u"/>
+<part name="R8" library="rlc-jqi" deviceset="RES" device="1206" value="10k">
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND"/>
+</part>
+<part name="C10" library="rlc-jqi" deviceset="CAP" device="1206" value="2.2u">
+<attribute name="DIGIKEY" value="587-2402-1-ND"/>
+</part>
 <part name="AGND12" library="supply1" deviceset="AGND" device=""/>
 <part name="Q1" library="jqi-power-supply" deviceset="MMBT2907A" device="SOT23" technology="MMBTA56"/>
-<part name="C11" library="rlc-jqi" deviceset="CAP" device="1206" value="220p"/>
-<part name="Q2" library="jqi-power-supply" deviceset="MMBT5550" device="SOT23"/>
-<part name="C13" library="rlc-jqi" deviceset="CAP" device="1206" value="220p"/>
-<part name="Q3" library="jqi-power-supply" deviceset="PMBF170" device=""/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
+<part name="C11" library="rlc-jqi" deviceset="CAP" device="1206" value="220p">
+<attribute name="DIGIKEY" value="1276-1166-1-ND"/>
+</part>
+<part name="Q2" library="jqi-power-supply" deviceset="MMBT5550" device="SOT23">
+<attribute name="DIGIKEY" value="MMBT5550CT-ND"/>
+</part>
+<part name="C13" library="rlc-jqi" deviceset="CAP" device="1206" value="220p">
+<attribute name="DIGIKEY" value="1276-1166-1-ND"/>
+</part>
+<part name="Q3" library="jqi-power-supply" deviceset="PMBF170" device="">
+<attribute name="DIGIKEY" value="MMBT2907AFSCT-ND"/>
+</part>
+<part name="R9" library="rcl" deviceset="R-US_" device="R1206" value="10k">
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND"/>
+</part>
+<part name="R10" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
+<attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
+</part>
+<part name="R11" library="rcl" deviceset="R-US_" device="R1206" value="DNP"/>
 <part name="AGND17" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND20" library="supply1" deviceset="AGND" device=""/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="C14" library="rlc-jqi" deviceset="CAP" device="1206" value="220p"/>
-<part name="C15" library="rlc-jqi" deviceset="CAP" device="1206" value="220p"/>
-<part name="Q4" library="jqi-power-supply" deviceset="BSH201" device=""/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="C16" library="rlc-jqi" deviceset="CAP" device="1206" value="220p"/>
-<part name="C25" library="rlc-jqi" deviceset="CAP" device="1206" value="220p"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
+<attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
+</part>
+<part name="C14" library="rlc-jqi" deviceset="CAP" device="1206" value="680p">
+<attribute name="DIGIKEY" value="399-8209-1-ND"/>
+</part>
+<part name="C15" library="rlc-jqi" deviceset="CAP" device="1206" value="DNP"/>
+<part name="Q4" library="jqi-power-supply" deviceset="BSH201" device="">
+<attribute name="DIGIKEY" value="568-6217-1-ND"/>
+</part>
+<part name="R13" library="rcl" deviceset="R-US_" device="R1206" value="10k">
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND"/>
+</part>
+<part name="C16" library="rlc-jqi" deviceset="CAP" device="1206" value="DNP"/>
+<part name="C25" library="rlc-jqi" deviceset="CAP" device="1206" value="680p">
+<attribute name="DIGIKEY" value="399-8209-1-ND"/>
+</part>
+<part name="R14" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
+<attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
+</part>
+<part name="R15" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
+<attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
+</part>
+<part name="R16" library="rcl" deviceset="R-US_" device="R1206" value="DNP"/>
 <part name="AGND21" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND22" library="supply1" deviceset="AGND" device=""/>
-<part name="R17" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="R1206" value="0">
+<attribute name="DIGIKEY" value="RMCF1206ZT0R00CT-ND"/>
+</part>
+<part name="R18" library="rcl" deviceset="R-US_" device="R1206" value="0">
+<attribute name="DIGIKEY" value="RMCF1206ZT0R00CT-ND"/>
+</part>
 <part name="F1" library="jqi-power-supply" deviceset="FUSE" device="1206">
 <attribute name="DIGIKEY" value="486-1686-1-ND"/>
 </part>
@@ -5334,29 +5404,57 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="AGND1" gate="VR1" x="231.14" y="40.64"/>
 <instance part="P+1" gate="1" x="231.14" y="60.96"/>
 <instance part="P-1" gate="1" x="228.6" y="10.16"/>
-<instance part="C7*" gate="G$1" x="223.52" y="53.34"/>
-<instance part="C10*" gate="G$1" x="223.52" y="22.86"/>
+<instance part="C31" gate="G$1" x="223.52" y="53.34"/>
+<instance part="C30" gate="G$1" x="223.52" y="22.86"/>
 <instance part="IC1" gate="G$1" x="279.4" y="73.66"/>
-<instance part="C23" gate="G$1" x="251.46" y="68.58" rot="R90"/>
-<instance part="C24" gate="G$1" x="297.18" y="63.5" rot="R90"/>
-<instance part="C21" gate="G$1" x="259.08" y="68.58" rot="R90"/>
+<instance part="C23" gate="G$1" x="251.46" y="68.58" rot="R90">
+<attribute name="DIGIKEY" x="251.46" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C24" gate="G$1" x="297.18" y="63.5" rot="R90">
+<attribute name="DIGIKEY" x="297.18" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C21" gate="G$1" x="259.08" y="68.58" rot="R90">
+<attribute name="DIGIKEY" x="259.08" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="AGND2" gate="VR1" x="279.4" y="53.34"/>
-<instance part="IC3" gate="G$1" x="322.58" y="76.2"/>
+<instance part="IC3" gate="G$1" x="322.58" y="76.2">
+<attribute name="DIGIKEY" x="322.58" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="T1" gate="G$1" x="396.24" y="76.2"/>
-<instance part="R1" gate="G$1" x="401.32" y="63.5" rot="R90"/>
-<instance part="R2" gate="G$1" x="401.32" y="53.34" rot="R90"/>
-<instance part="C17" gate="G$1" x="279.4" y="7.62" rot="R90"/>
-<instance part="IC4" gate="G$1" x="309.88" y="12.7"/>
-<instance part="R3" gate="G$1" x="401.32" y="25.4" rot="R90"/>
-<instance part="R4" gate="G$1" x="401.32" y="35.56" rot="R90"/>
+<instance part="R1" gate="G$1" x="401.32" y="63.5" rot="R90">
+<attribute name="DIGIKEY" x="401.32" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="401.32" y="53.34" rot="R90">
+<attribute name="DIGIKEY" x="401.32" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C17" gate="G$1" x="279.4" y="7.62" rot="R90">
+<attribute name="DIGIKEY" x="279.4" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="IC4" gate="G$1" x="309.88" y="12.7">
+<attribute name="DIGIKEY" x="309.88" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="401.32" y="25.4" rot="R90">
+<attribute name="DIGIKEY" x="401.32" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="401.32" y="35.56" rot="R90">
+<attribute name="DIGIKEY" x="401.32" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="T2" gate="G$1" x="396.24" y="10.16"/>
-<instance part="IC2" gate="G$1" x="274.32" y="22.86"/>
+<instance part="IC2" gate="G$1" x="274.32" y="22.86">
+<attribute name="DIGIKEY" x="274.32" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND4" gate="VR1" x="279.4" y="33.02"/>
 <instance part="AGND5" gate="VR1" x="279.4" y="2.54"/>
-<instance part="R5" gate="G$1" x="256.54" y="33.02" rot="R90"/>
-<instance part="R6" gate="G$1" x="256.54" y="17.78" rot="R90"/>
+<instance part="R5" gate="G$1" x="256.54" y="33.02" rot="R90">
+<attribute name="DIGIKEY" x="256.54" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="256.54" y="17.78" rot="R90">
+<attribute name="DIGIKEY" x="256.54" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="AGND3" gate="VR1" x="264.16" y="22.86"/>
-<instance part="C22" gate="G$1" x="266.7" y="17.78" rot="R90"/>
+<instance part="C22" gate="G$1" x="266.7" y="17.78" rot="R90">
+<attribute name="DIGIKEY" x="266.7" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="AGND6" gate="VR1" x="314.96" y="22.86"/>
 <instance part="X2" gate="-1" x="429.26" y="55.88"/>
 <instance part="X2" gate="-2" x="429.26" y="58.42"/>
@@ -5374,10 +5472,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P-5" gate="1" x="421.64" y="48.26"/>
 <instance part="AGND7" gate="VR1" x="424.18" y="43.18"/>
 <instance part="AGND8" gate="VR1" x="436.88" y="17.78"/>
-<instance part="C18" gate="G$1" x="279.4" y="38.1" rot="R90"/>
-<instance part="C19" gate="G$1" x="304.8" y="2.54" rot="R90"/>
+<instance part="C18" gate="G$1" x="279.4" y="38.1" rot="R90">
+<attribute name="DIGIKEY" x="279.4" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C19" gate="G$1" x="304.8" y="2.54" rot="R90">
+<attribute name="DIGIKEY" x="304.8" y="2.54" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="AGND9" gate="VR1" x="304.8" y="-2.54"/>
-<instance part="C20" gate="G$1" x="320.04" y="86.36"/>
+<instance part="C20" gate="G$1" x="320.04" y="86.36">
+<attribute name="DIGIKEY" x="320.04" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND10" gate="VR1" x="314.96" y="83.82"/>
 <instance part="AGND13" gate="VR1" x="322.58" y="62.23"/>
 <instance part="AGND14" gate="VR1" x="401.32" y="45.72"/>
@@ -5394,7 +5498,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+7" gate="1" x="208.28" y="86.36"/>
 <instance part="P+2" gate="1" x="401.32" y="91.44"/>
 <instance part="P-2" gate="1" x="401.32" y="-7.62"/>
-<instance part="R7" gate="G$1" x="302.26" y="78.74" rot="R180"/>
+<instance part="R7" gate="G$1" x="302.26" y="78.74" rot="R180">
+<attribute name="DIGIKEY" x="302.26" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="C7" gate="G$1" x="309.88" y="76.2" rot="R90">
 <attribute name="DIGIKEY" x="309.88" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="VMAX" x="309.88" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
@@ -5405,33 +5511,79 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="VMAX" x="297.18" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="AGND16" gate="VR1" x="297.18" y="7.62"/>
-<instance part="R8" gate="G$1" x="292.1" y="15.24" rot="R180"/>
-<instance part="C10" gate="G$1" x="274.32" y="-10.16" rot="R90"/>
+<instance part="R8" gate="G$1" x="292.1" y="15.24" rot="R180">
+<attribute name="DIGIKEY" x="292.1" y="15.24" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="274.32" y="-10.16" rot="R90">
+<attribute name="DIGIKEY" x="274.32" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="AGND12" gate="VR1" x="274.32" y="-17.78"/>
 <instance part="Q1" gate="D" x="383.54" y="83.82"/>
-<instance part="C11" gate="G$1" x="391.16" y="66.04" rot="R90"/>
-<instance part="Q2" gate="G$1" x="386.08" y="2.54"/>
-<instance part="C13" gate="G$1" x="388.62" y="25.4" rot="R90"/>
-<instance part="Q3" gate="G$1" x="370.84" y="78.74"/>
-<instance part="R9" gate="G$1" x="370.84" y="66.04" rot="R90"/>
-<instance part="R10" gate="G$1" x="342.9" y="76.2" rot="R180"/>
+<instance part="C11" gate="G$1" x="391.16" y="66.04" rot="R90">
+<attribute name="DIGIKEY" x="391.16" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="Q2" gate="G$1" x="386.08" y="2.54">
+<attribute name="DIGIKEY" x="386.08" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C13" gate="G$1" x="388.62" y="25.4" rot="R90">
+<attribute name="DIGIKEY" x="388.62" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="Q3" gate="G$1" x="370.84" y="78.74">
+<attribute name="DIGIKEY" x="370.84" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="370.84" y="66.04" rot="R90">
+<attribute name="DIGIKEY" x="370.84" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="342.9" y="76.2" rot="R180">
+<attribute name="DIGIKEY" x="342.9" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="R11" gate="G$1" x="360.68" y="66.04" rot="R270"/>
 <instance part="AGND17" gate="VR1" x="370.84" y="55.88"/>
 <instance part="AGND20" gate="VR1" x="360.68" y="55.88"/>
-<instance part="R12" gate="G$1" x="330.2" y="58.42" rot="R180"/>
-<instance part="C14" gate="G$1" x="342.9" y="58.42" rot="R180"/>
-<instance part="C15" gate="G$1" x="332.74" y="53.34" rot="R180"/>
-<instance part="Q4" gate="G$1" x="368.3" y="10.16"/>
-<instance part="R13" gate="G$1" x="368.3" y="22.86" rot="R90"/>
+<instance part="R12" gate="G$1" x="330.2" y="58.42" rot="R180">
+<attribute name="DIGIKEY" x="330.2" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="342.9" y="58.42" rot="R180">
+<attribute name="DIGIKEY" x="342.9" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="332.74" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="335.28" y="51.435" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="337.312" y="54.864" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="Q4" gate="G$1" x="368.3" y="10.16">
+<attribute name="DIGIKEY" x="368.3" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R13" gate="G$1" x="368.3" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="367.0554" y="23.622" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="371.602" y="19.05" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="368.3" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="C16" gate="G$1" x="335.28" y="35.56" rot="R180"/>
-<instance part="C25" gate="G$1" x="335.28" y="30.48" rot="R180"/>
-<instance part="R14" gate="G$1" x="322.58" y="30.48" rot="R180"/>
-<instance part="R15" gate="G$1" x="335.28" y="12.7" rot="R180"/>
-<instance part="R16" gate="G$1" x="358.14" y="20.32" rot="R90"/>
+<instance part="C25" gate="G$1" x="335.28" y="30.48" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" x="335.28" y="30.48" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="337.82" y="28.575" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="341.122" y="32.004" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="R14" gate="G$1" x="322.58" y="30.48" rot="R180">
+<attribute name="DIGIKEY" x="322.58" y="30.48" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="335.28" y="12.7" rot="R180">
+<attribute name="DIGIKEY" x="335.28" y="12.7" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R16" gate="G$1" x="358.14" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="357.124" y="22.8854" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="357.632" y="20.32" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="AGND21" gate="VR1" x="375.92" y="25.4"/>
-<instance part="AGND22" gate="VR1" x="363.22" y="22.86"/>
-<instance part="R17" gate="G$1" x="350.52" y="12.7" rot="R180"/>
-<instance part="R18" gate="G$1" x="355.6" y="76.2" rot="R180"/>
+<instance part="AGND22" gate="VR1" x="363.22" y="22.86" smashed="yes">
+<attribute name="VALUE" x="366.014" y="21.844" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R17" gate="G$1" x="350.52" y="12.7" rot="R180">
+<attribute name="DIGIKEY" x="350.52" y="12.7" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="355.6" y="76.2" rot="R180">
+<attribute name="DIGIKEY" x="355.6" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="F1" gate="G$1" x="137.668" y="46.99">
 <attribute name="DIGIKEY" x="137.668" y="46.99" size="1.778" layer="96" display="off"/>
 </instance>
@@ -5575,10 +5727,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="215.9" y="43.18"/>
 <pinref part="C5" gate="G$1" pin="-"/>
 <wire x1="205.74" y1="43.18" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C10*" gate="G$1" pin="+"/>
+<pinref part="C30" gate="G$1" pin="+"/>
 <wire x1="223.52" y1="25.4" x2="223.52" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="30.48" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C7*" gate="G$1" pin="-"/>
+<pinref part="C31" gate="G$1" pin="-"/>
 <wire x1="223.52" y1="43.18" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
 <junction x="223.52" y="43.18"/>
 <pinref part="AGND1" gate="VR1" pin="AGND"/>
@@ -5692,7 +5844,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="V-" class="0">
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
-<pinref part="C10*" gate="G$1" pin="-"/>
+<pinref part="C30" gate="G$1" pin="-"/>
 <wire x1="223.52" y1="12.7" x2="223.52" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="-"/>
 <wire x1="215.9" y1="12.7" x2="215.9" y2="17.78" width="0.2032" layer="91"/>
@@ -5737,7 +5889,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="215.9" y1="58.42" x2="215.9" y2="55.88" width="0.2032" layer="91"/>
 <junction x="215.9" y="58.42"/>
 <wire x1="223.52" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C7*" gate="G$1" pin="+"/>
+<pinref part="C31" gate="G$1" pin="+"/>
 <wire x1="223.52" y1="55.88" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="58.42" x2="231.14" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="V+"/>
