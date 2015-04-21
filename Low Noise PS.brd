@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.025" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,16 +22,16 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -1975,10 +1975,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="196.342" y="22.225" size="1.27" layer="27" rot="R270"/>
 <attribute name="DIGIKEY" value="MMBT2907AFSCT-ND" x="199.517" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R9" library="rcl" package="R1206" value="10k" x="192.532" y="17.907" smashed="yes" rot="R270">
-<attribute name="NAME" x="191.389" y="16.129" size="1.0668" layer="25" rot="R90"/>
-<attribute name="VALUE" x="189.992" y="19.177" size="1.27" layer="27" rot="R270"/>
-<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND" x="192.532" y="17.907" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R9" library="rcl" package="R1206" value="10k" x="194.818" y="18.669" smashed="yes">
+<attribute name="NAME" x="196.596" y="17.526" size="1.0668" layer="25" rot="R180"/>
+<attribute name="VALUE" x="193.548" y="16.129" size="1.27" layer="27"/>
+<attribute name="DIGIKEY" value="RNCP1206FTD10K0CT-ND" x="194.818" y="18.669" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R10" library="rcl" package="R1206" value="1.5k" x="193.929" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="192.532" y="34.544" size="1.0668" layer="25" rot="R90"/>
@@ -2068,10 +2068,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="211.201" y="67.945" size="0.889" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="215.646" y="67.945" size="0.889" layer="28" rot="MR270"/>
 </element>
-<element name="C28" library="rlc-jqi" package="1206" value="22uF" x="194.183" y="18.669" smashed="yes" rot="MR270">
-<attribute name="DIGIKEY" value="445-8045-1-ND" x="194.183" y="18.669" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="192.278" y="21.209" size="0.889" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="196.723" y="21.209" size="0.889" layer="28" rot="MR270"/>
+<element name="C28" library="rlc-jqi" package="1206" value="22uF" x="191.516" y="14.986" smashed="yes" rot="MR270">
+<attribute name="DIGIKEY" value="445-8045-1-ND" x="191.516" y="14.986" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="189.611" y="17.526" size="0.889" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="194.056" y="17.526" size="0.889" layer="28" rot="MR270"/>
 </element>
 <element name="C29" library="rlc-jqi" package="1206" value="22uF" x="200.66" y="65.786" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="445-8045-1-ND" x="200.66" y="65.786" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2182,9 +2182,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <vertex x="214.63" y="35.56"/>
 <vertex x="203.835" y="35.56"/>
 <vertex x="203.835" y="28.575"/>
-<vertex x="196.215" y="19.685"/>
-<vertex x="191.135" y="19.558"/>
-<vertex x="191.135" y="31.115"/>
+<vertex x="193.675" y="15.875"/>
+<vertex x="189.23" y="15.748"/>
+<vertex x="189.23" y="31.115"/>
 <vertex x="183.515" y="31.115"/>
 <vertex x="183.515" y="43.18"/>
 <vertex x="151.13" y="43.18"/>
@@ -2313,8 +2313,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <vertex x="204.724" y="41.021"/>
 </polygon>
 <via x="192.278" y="21.463" extent="1-16" drill="0.7"/>
-<wire x1="192.532" y1="19.329" x2="192.303" y2="20.853" width="1.016" layer="1"/>
-<wire x1="192.303" y1="20.853" x2="192.278" y2="21.463" width="1.016" layer="1"/>
+<wire x1="193.396" y1="18.669" x2="193.446" y2="21.361" width="1.016" layer="1"/>
+<wire x1="193.446" y1="21.361" x2="192.278" y2="21.463" width="1.016" layer="1"/>
 <wire x1="193.523" y1="21.463" x2="192.278" y2="21.463" width="1.016" layer="1"/>
 <via x="193.294" y="22.86" extent="1-16" drill="0.7"/>
 <polygon width="0.4064" layer="1" thermals="no">
@@ -2428,8 +2428,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <vertex x="135.255" y="22.225"/>
 <vertex x="152.4" y="39.37"/>
 <vertex x="181.61" y="39.37"/>
-<vertex x="181.61" y="18.415"/>
-<vertex x="197.485" y="18.415"/>
+<vertex x="181.61" y="26.67"/>
+<vertex x="187.96" y="26.67"/>
+<vertex x="187.96" y="13.97"/>
+<vertex x="194.31" y="13.97"/>
 <vertex x="206.375" y="27.94"/>
 <vertex x="216.535" y="27.94"/>
 <vertex x="216.662" y="1.397"/>
@@ -2774,7 +2776,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="N$34">
 <contactref element="Q3" pad="2"/>
 <contactref element="R9" pad="2"/>
-<wire x1="192.532" y1="16.485" x2="197.691" y2="18.644" width="1.016" layer="1"/>
+<wire x1="196.24" y1="18.669" x2="197.691" y2="18.644" width="1.016" layer="1"/>
 <wire x1="197.691" y1="18.644" x2="198.417" y2="19.37" width="1.016" layer="1"/>
 </signal>
 <signal name="N$11">
