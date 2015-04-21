@@ -5316,7 +5316,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R10" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
 <attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
 </part>
-<part name="R11" library="rcl" deviceset="R-US_" device="R1206" value="DNP"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
+<attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
+</part>
 <part name="AGND17" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND20" library="supply1" deviceset="AGND" device=""/>
 <part name="R12" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
@@ -5342,14 +5344,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R15" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
 <attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
 </part>
-<part name="R16" library="rcl" deviceset="R-US_" device="R1206" value="DNP"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
+<attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
+</part>
 <part name="AGND21" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND22" library="supply1" deviceset="AGND" device=""/>
-<part name="R17" library="rcl" deviceset="R-US_" device="R1206" value="0">
-<attribute name="DIGIKEY" value="RMCF1206ZT0R00CT-ND"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
+<attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
 </part>
-<part name="R18" library="rcl" deviceset="R-US_" device="R1206" value="0">
-<attribute name="DIGIKEY" value="RMCF1206ZT0R00CT-ND"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="R1206" value="1.5k">
+<attribute name="DIGIKEY" value="541-1.5KECT-ND"/>
 </part>
 <part name="F1" library="jqi-power-supply" deviceset="FUSE" device="1206">
 <attribute name="DIGIKEY" value="486-1686-1-ND"/>
@@ -5537,7 +5541,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R10" gate="G$1" x="342.9" y="76.2" rot="R180">
 <attribute name="DIGIKEY" x="342.9" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="360.68" y="66.04" rot="R270"/>
+<instance part="R11" gate="G$1" x="360.68" y="66.04" rot="R270">
+<attribute name="DIGIKEY" x="360.68" y="66.04" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="AGND17" gate="VR1" x="370.84" y="55.88"/>
 <instance part="AGND20" gate="VR1" x="360.68" y="55.88"/>
 <instance part="R12" gate="G$1" x="330.2" y="58.42" rot="R180">
@@ -5573,6 +5579,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R16" gate="G$1" x="358.14" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="357.124" y="22.8854" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="357.632" y="20.32" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIGIKEY" x="358.14" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="AGND21" gate="VR1" x="375.92" y="25.4"/>
 <instance part="AGND22" gate="VR1" x="363.22" y="22.86" smashed="yes">

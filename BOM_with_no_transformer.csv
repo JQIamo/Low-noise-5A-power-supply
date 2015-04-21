@@ -1,9 +1,8 @@
 "Qty";"Value";"Device";"Parts";"Description";"DIGIKEY";"VMAX";
 "3";"";"5566-4RA";"X1, X2, X3";"Mini FIT connector 4 pol";"WM1352-ND";"";
 "2";"";"FUSE1206";"F1, F2";"";"486-1686-1-ND";"";
-"2";"0";"R-US_R1206";"R17, R18";"RESISTOR, American symbol";"RMCF1206ZT0R00CT-ND";"";
 "4";"0.1u";"CAP1206";"C17, C18, C19, C20";"SMT Capacitor";"399-1249-1-ND";"";
-"4";"1.5k";"R-US_R1206";"R10, R12, R14, R15";"RESISTOR, American symbol";"541-1.5KECT-ND";"";
+"8";"1.5k";"R-US_R1206";"R10, R11, R12, R14, R15, R16, R17, R18";"RESISTOR, American symbol";"541-1.5KECT-ND";"";
 "5";"2.2u";"CAP1206";"C10, C21, C22, C23, C24";"SMT Capacitor";"587-2402-1-ND";"";
 "2";"10k";"R-US_R1206";"R9, R13";"RESISTOR, American symbol";"RNCP1206FTD10K0CT-ND";"";
 "6";"10k";"RES1206";"R2, R4, R5, R6, R7, R8";"SMT Resistor";"RNCP1206FTD10K0CT-ND";"";
@@ -17,7 +16,6 @@
 "4";"4700u";"CPOL-USE7.5-18";"C1, C2, C3, C4";"";"495-6089-ND";"";
 "1";"BSH201";"BSH201";"Q4";"P-CHANNEL MOS FET";"568-6217-1-ND";"";
 "2";"DNP";"CAP1206";"C15, C16";"SMT Capacitor";"";"";
-"2";"DNP";"R-US_R1206";"R11, R16";"RESISTOR, American symbol";"";"";
 "2";"LT1677";"OPAMP-SO";"IC3, IC4";"Basic Op Amp. Be sure to check actual pinout of your device, and";"LT1677CS8#PBF-ND";"";
 "1";"MAX6350SO08";"MAX6350SO08";"IC1";"VOLATAGE REFERENCE";"MAX6350CSA+-ND";"";
 "1";"MC78M12BDTG";"MC78M12BDTG";"IC6";"500 mA Positive Voltage Regulators";"MC78M12BDTGOS-ND";"";
